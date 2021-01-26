@@ -1,7 +1,12 @@
 import React from 'react'
-import './navbar'
+import './Navbar'
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+class App extends React.Component {
+    render () {
+      return (
+      <div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,3 +22,10 @@ import './navbar'
     </div>
   </div>
 </nav>
+      </div>
+    );
+    }
+  }
+  
+  export default App;
+  

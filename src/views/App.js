@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import casino from '../components/Casino'
+import Box from '../components/box/Box'
 import Navbar from '../components/navbar/Navbar'
 
 class App extends React.Component {
@@ -24,15 +25,20 @@ constructor(props){
 
   render () {
     return (
+
+      <div className="App">
       <Navbar/>
-      /*<div className="App">
+      <Box/>
+      
+              
       {
         this.state.users.map((user,i) => <p key={i}>{user}</p>)
       }
+      <Box/>
       <p>{this.state.name}</p>
       <casino casinos={[{name: 'Monsupercasino', url:'httplol'}, {name: 'Moncasino', url:'httpmdr'}]}/>
-      </div>*/
-  );
+      </div>
+    );
   }
 }
 
