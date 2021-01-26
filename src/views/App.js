@@ -31,6 +31,7 @@ constructor(props){
       <Navbar/>
       
       <div class="container">
+      <div class="topAffiliation">
         <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3">
           <div class="col">
             <Box/>
@@ -40,6 +41,9 @@ constructor(props){
           </div>
           
         </div>
+        </div>
+
+        <div class="affliation">
         <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
           <div class="col">
             <Box/>
@@ -61,12 +65,12 @@ constructor(props){
           </div>
         </div>
       </div>
+      </div>
       
               
       {
         this.state.users.map((user,i) => <p key={i}>{user}</p>)
       }
-      <Box/>
       <p>{this.state.name}</p>
       <casino casinos={[{name: 'Monsupercasino', url:'httplol'}, {name: 'Moncasino', url:'httpmdr'}]}/>
       </div>
