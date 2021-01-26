@@ -2,7 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './views/App';
+import Page2 from './views/Page2'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom'
+
 import reportWebVitals from './reportWebVitals';
+
+const Root = () => {
+  return (
+      <Router>
+        <Switch>
+          <Route exact path='/' component={App} />
+          <Route exact path='/page2' component={Page2} />
+        </Switch>
+      </Router>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>

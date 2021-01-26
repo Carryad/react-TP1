@@ -3,6 +3,7 @@ import './App.css'
 import casino from '../components/Casino'
 import Box from '../components/box/Box'
 import Navbar from '../components/navbar/Navbar'
+import {Link} from 'react-router-dom'
 
 class App extends React.Component {
 constructor(props){
@@ -28,7 +29,38 @@ constructor(props){
 
       <div className="App">
       <Navbar/>
-      <Box/>
+      
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3">
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+          
+        </div>
+        <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+          <div class="col">
+            <Box/>
+          </div>
+        </div>
+      </div>
       
               
       {
