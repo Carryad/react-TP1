@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './views/App';
-import Page2 from './views/Page2'
 import {
   BrowserRouter as Router,
   Route,
@@ -11,7 +10,7 @@ import {
 
 import reportWebVitals from './reportWebVitals';
 
-const Root = () => {
+/*const Root = () => {
   return (
       <Router>
         <Switch>
@@ -20,7 +19,7 @@ const Root = () => {
         </Switch>
       </Router>
   )
-}
+}*/
 
 ReactDOM.render(
   <React.StrictMode>

@@ -24,6 +24,15 @@ constructor(props){
     console.log(this.state.name)
   }
 
+  /* fonction pour récupérer valeur d'un formulaire
+  handleChange(e){
+    const name = e.target.name
+    const value = e.target.value
+    this.state({
+      [name]:value
+    })
+  }*/
+
   render () {
     return (
 
