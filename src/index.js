@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './views/App';
+import Login from './views/Login';
 import {
   BrowserRouter as Router,
   Route,
@@ -10,23 +11,20 @@ import {
 
 import reportWebVitals from './reportWebVitals';
 
-/*const Root = () => {
+const Root = () => {
   return (
-      <Router>
-        <Switch>
-          <Route exact path='/' component={App} />
-          <Route exact path='/page2' component={Page2} />
-        </Switch>
-      </Router>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={App} />
+        <Route exact path='/login' component={Login} />
+      </Switch>
+    </Router>
   )
-}*/
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Root />, document.getElementById('root'));
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

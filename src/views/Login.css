@@ -1,0 +1,18 @@
+body {
+    background-color: #151416;
+}
+
+.boxlogin {
+    margin: 3rem 22rem 3rem 22rem;
+}
+
+.card {
+    color:white;
+    text-align: left;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.button-primary {
+    text-align: center;
+}
