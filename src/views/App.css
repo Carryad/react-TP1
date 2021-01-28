@@ -1,10 +1,22 @@
 .App {
   text-align: center;
   background-color: #151416;
+  padding: 0;
+  margin-top: 0rem;
 }
 
 body {
   background-color: #151416;
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+.footer {
+  background-color: #0e0d16;
+  margin-top: 4rem;
+  box-shadow:0px 0px 50px 6px #2b1a75;
 }
 
 .navbar {
@@ -96,3 +108,78 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 767.98px) { 
+  .topAffiliation {
+    /*margin-top: 3rem;*/
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  
+  .affliation {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .card {
+    padding: 0!important;
+}
+ }
+
+ @media (max-width: 991.98px) { 
+  .topAffiliation {
+    /*margin-top: 3rem;*/
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  
+  .affliation {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .card {
+    padding: 0!important;
+}
+ }
+
+ @media (max-width: 1199.98px) { 
+  .topAffiliation {
+    /*margin-top: 3rem;*/
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  
+  .affliation {
+    margin:2rem 1rem 0rem 1rem;
+  }
+
+  .card {
+    padding: 0!important;
+}
+ }
+
+ @media (max-width: 1399.98px) { 
+  .topAffiliation {
+    /*margin-top: 3rem;*/
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  
+  .affliation {
+    margin: 2rem 1rem 0rem 1rem;
+  }
+
+  .card {
+    padding: 0!important;
+}
+ }
+
+ @media (min-width: 1400px) { 
+  .topAffiliation {
+    /*margin-top: 3rem;*/
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  
+  .affliation {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .card {
+    padding: 0!important;
+}
+  }

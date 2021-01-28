@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom'
 
 class App extends React.Component {
 
-  /* fonction pour récupérer valeur d'un formulaire
+  //fonction pour récupérer valeur d'un formulaire
   handleChange(e){
-    const name = e.target.name
+    const email = e.target.email
     const value = e.target.value
     this.state({
-      [name]:value
+      [email]:value
     })
-  }*/
+  }
 
   render() {
     return (
@@ -28,7 +28,7 @@ class App extends React.Component {
               <form>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Adresse E-Mail</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp"></input>
                   <div id="emailHelp" class="form-text"></div>
                 </div>
                 <div class="mb-3">

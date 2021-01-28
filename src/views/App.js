@@ -36,16 +36,9 @@ class App extends React.Component {
 
       <div className="App">
         <Navbar />
-
-        <div className="App">
-          <header className="App-header">
-            <Link to="/login">Go to login</Link>
-          </header>
-        </div>
-
         <div class="container">
           <div class="topAffiliation">
-            <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
               <div class="col">
                 <Box />
               </div>
@@ -57,7 +50,7 @@ class App extends React.Component {
           </div>
 
           <div class="affliation">
-            <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+            <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-4">
               <div class="col">
                 <Box />
               </div>
@@ -79,14 +72,11 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-
-
-        {
-          this.state.users.map((user, i) => <p key={i}>{user}</p>)
-        }
-        <p>{this.state.name}</p>
-        <casino casinos={[{ name: 'Monsupercasino', url: 'httplol' }, { name: 'Moncasino', url: 'httpmdr' }]} />
+        <div class="footer">
+          <Link to="/login">Admin</Link>
+        </div>
       </div>
+
     );
   }
 }
