@@ -4,6 +4,7 @@ import Box from '../components/box/Box'
 import Navbar from '../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -40,7 +41,7 @@ class App extends React.Component {
           <div class="topAffiliation">
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
               <div class="col">
-                <Box />
+                <Box /*name="Paris"*/ money="75%" spin="2" wager="X25"/>
               </div>
               <div class="col">
                 <Box />

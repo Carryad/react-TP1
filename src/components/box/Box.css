@@ -2,12 +2,29 @@
     border-radius : 3rem 3rem 0rem 0rem
 }
 
-.card-body {
-    box-shadow: 8px 8px 12px #aaa;
-    background-color: #111016;
+.card-title {
+    text-align: center;
+    font-size: 3rem;
 }
 
 .card {
     background-color: #1e1c26;
 }
 
+.elementName {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.elementValues {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.elementLogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+}
