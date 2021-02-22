@@ -5,3 +5,12 @@
 .bg-dark {
     background-color: white!important;
 }
+
+img{
+    width:5rem;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    font-size : 2rem;
+}

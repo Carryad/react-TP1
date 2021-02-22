@@ -73,7 +73,7 @@ class App extends React.Component {
           </div>
         </div>
         <div class="footer">
-          <Link to="/login">Admin</Link>
+          Copyrights MyFreeCasinoGames© All Rights Reserved
         </div>
       </div>
 

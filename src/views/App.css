@@ -10,13 +10,15 @@ body {
 }
 
 .container {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .footer {
   background-color: #0e0d16;
-  margin-top: 4rem;
+  margin-top: 3rem;
   box-shadow:0px 0px 50px 6px #2b1a75;
+  color : white;
+  padding: 0.5rem;
 }
 
 .navbar {
