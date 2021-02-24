@@ -71,7 +71,7 @@ class App extends React.Component {
         <Navbar />
         <div class="container">
           <div class="topAffiliation">
-            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
+            <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-4">
               <div class="col">
                 <Box /*name="Paris"*/ style={imgBgI1} image={sevenbit} money="75%" spin="2" wager="X25" />
               </div>
@@ -83,7 +83,7 @@ class App extends React.Component {
           </div>
 
           <div class="affliation">
-            <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-4">
+            <div class="row row-cols-2 row-cols-xl-3 g-2 g-lg-4">
               <div class="col">
                 <Box /*name="Paris"*/ style={imgBgI3} image={bet365} money="75%" spin="2" wager="X25" />
               </div>
