@@ -30,6 +30,25 @@
     .elementValues{
         font-weight: bold;
         text-align: center;
+        font-size: 0.8rem;
+    }
+    .elementName{
+        text-align: center;
+        font-size: 0.4rem;
+    }
+    .txtBtn{
+        font-size: 0.4rem;
+    }
+    .card-img-top {
+        padding: 0.5rem;
+        height: 2.6rem;
+    }
+ }
+
+@media (min-width: 358px) { 
+    .elementValues{
+        font-weight: bold;
+        text-align: center;
         font-size: 1rem;
     }
     .elementName{

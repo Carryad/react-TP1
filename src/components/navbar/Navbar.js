@@ -11,7 +11,7 @@ class App extends React.Component {
           <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <img src={logo}></img>
-    <a class="navbar-brand" href="#">MyFreeCasinoGames</a>
+    <a class="navbar-brand" href="#">Gambling4Free</a>
     
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">

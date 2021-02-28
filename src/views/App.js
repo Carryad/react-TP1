@@ -46,24 +46,6 @@ class App extends React.Component {
     }
   }
 
-  componentDidMount() {
-    console.log('Component did mount')
-    console.log(this.state.name)
-    this.setState({
-      name: 'tki'
-    }, () => console.log('Callback : ', this.state.name))
-    console.log(this.state.name)
-  }
-
-  /* fonction pour récupérer valeur d'un formulaire
-  handleChange(e){
-    const name = e.target.name
-    const value = e.target.value
-    this.state({
-      [name]:value
-    })
-  }*/
-
   render() {
     return (
 
@@ -71,7 +53,7 @@ class App extends React.Component {
         <Navbar />
         <div class="container">
           <div class="topAffiliation">
-            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
+            <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-4">
               <div class="col">
                 <Box /*name="Paris"*/ style={imgBgI1} image={sevenbit} money="75%" spin="2" wager="X25" />
               </div>
@@ -83,7 +65,7 @@ class App extends React.Component {
           </div>
 
           <div class="affliation">
-            <div class="row row-cols-1 row-cols-xl-3 g-2 g-lg-4">
+            <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-4">
               <div class="col">
                 <Box /*name="Paris"*/ style={imgBgI3} image={bet365} money="75%" spin="2" wager="X25" />
               </div>
@@ -106,8 +88,7 @@ class App extends React.Component {
           </div>
         </div>
         <div class="footer">
-        <Link />
-          Copyrights MyFreeCasinoGames© All Rights Reserved
+          Copyrights Gambling4Free© All Rights Reserved
         </div>
       </div>
 
